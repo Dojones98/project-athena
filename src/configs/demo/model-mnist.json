@@ -1,3 +1,5 @@
+
+
 {
     "dir": "../../models/cnn/",
     "um_file": "model-mnist-cnn-clean.h5",
