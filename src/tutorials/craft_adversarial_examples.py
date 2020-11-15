@@ -20,8 +20,8 @@ from models.athena import Ensemble, ENSEMBLE_STRATEGY
 
 
 def generate_ae(model, data, labels, attack_configs,
-                eot=False,
-                save=False, output_dir=None):
+                eot=True,
+                save=True, output_dir = "../../results"):
     """
     Generate adversarial examples
     :param model: WeakDefense. The targeted model.
@@ -58,7 +58,7 @@ def generate_ae(model, data, labels, attack_configs,
         print(">>> error rate:", err)
 
         # plotting some examples
-        num_plotting = min(data.shape[0], 0)
+        num_plotting = min(data.shape[0], 2)
         for i in range(num_plotting):
             img = data_adv[i].reshape((img_rows, img_cols))
             plt.imshow(img, cmap='gray')
@@ -159,11 +159,11 @@ if __name__ == '__main__':
     # Normal approach
     # Compute the loss w.r.t. a single input
     # For an ensemble target, averaging the losses of WDs'.
-    generate_ae(model=target,
-                data=data_bs, labels=labels,
-                eot=False,
+    ''' generate_ae(model=target,
+                 data=data_bs, labels=labels,
+               eot=False,
                 attack_configs=attack_configs
-                )
+                )'''
 
     # Adaptive approach (with EOT)
     # Compute the loss expectation over specific distribution.
