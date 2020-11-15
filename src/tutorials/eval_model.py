@@ -75,7 +75,7 @@ def evaluate(trans_configs, model_configs,
     # Evaluate AEs.
     results = {}
     ae_list = data_configs.get('ae_files')
-    ae_file = os.path.join(data_configs.get('dir'), ae_list[0]) #4
+    ae_file = os.path.join(data_configs.get('dir'), ae_list[1]) #4
     x_adv = np.load(ae_file)
 
     # evaluate the undefended model on the AE
@@ -138,6 +138,8 @@ if __name__ == '__main__':
     trans_configs = load_from_json(args.trans_configs)
     model_configs = load_from_json(args.model_configs)
     data_configs = load_from_json(args.data_configs)
+
+    output_dir = "../../results"
 
     # -------- test transformations -------------
     evaluate(trans_configs=trans_configs,

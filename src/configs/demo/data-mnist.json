@@ -3,10 +3,9 @@
     "bs_file": "subsamples-mnist-ratio_0.1-112490.080191753.npy",
     "label_file": "sublabels-mnist-ratio_0.1-112490.080191753.npy",
     "ae_files": [
-        "293.236076914.npy",
-        "393.8238211.npy",
-        "490.586043808.npy",
-        "test_AE-mnist-cnn-clean-fgsm_eps0.1.npy",
+        "ae_wb_pgd_eps003.npy",
+        "ae_wb_pgd_eps006.npy",
+        "ae_pgd_eps012_iter_40.npy",
         "test_AE-mnist-cnn-clean-fgsm_eps0.15.npy",
         "test_AE-mnist-cnn-clean-fgsm_eps0.2.npy",
         "test_AE-mnist-cnn-clean-fgsm_eps0.25.npy",

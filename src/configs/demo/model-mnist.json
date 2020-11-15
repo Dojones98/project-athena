@@ -6,3 +6,4 @@
     "architecture": "cnn",
     "pgd_trained": "../../models/baseline/advTrained-mnist-adtC.h5"
 }
+
