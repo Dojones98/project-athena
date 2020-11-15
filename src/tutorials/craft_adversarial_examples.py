@@ -20,7 +20,7 @@ from models.athena import Ensemble, ENSEMBLE_STRATEGY
 
 
 def generate_ae(model, data, labels, attack_configs,
-                eot=False,
+                eot=True,
                 save=True, output_dir = "../../results"):
     """
     Generate adversarial examples
@@ -170,6 +170,6 @@ if __name__ == '__main__':
     # For an ensemble target, averaging the EOT of WDs'.
     generate_ae(model=target,
                 data=data_bs, labels=labels,
-                eot=False,
+                eot=True,
                 attack_configs=attack_configs
                 )
