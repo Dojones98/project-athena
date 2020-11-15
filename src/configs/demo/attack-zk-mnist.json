@@ -1,36 +1,69 @@
 {
-  "num_attacks": 3,
-    "configs0": {
-      "attack": "fgsm",
-      "description": "fgsm_eps024",
-      "eps": 0.35,
-      "distribution": {
-        "num_samples": 50,
-        "transformation": "rotation",
-        "min_angle": -45,
-        "max_angle": 45
-      }
-    },
-      "configs1": {
-        "attack": "fgsm",
-        "description": "fgsm_eps024",
-        "eps": 0.35,
-        "distribution": {
-          "num_samples": 100,
-          "transformation": "rotation",
-          "min_angle": -45,
-          "max_angle": 45
-        }
-      },
-    "configs2": {
+  "num_attacks": 6,
+  "configs0": {
+    "attack": "pgd",
+    "description": "pgd_eps024",
+    "eps": 0.24,
+    "distribution": {
+      "num_samples": 10,
+      "transformation": "translation",
+      "min_offset": -0.5,
+      "max_offset": 0.5
+    }
+  },
+  "configs1": {
+    "attack": "pgd",
+    "description": "pgd_eps024",
+    "eps": 0.24,
+    "distribution": {
+      "num_samples": 20,
+      "transformation": "translation",
+      "min_offset": -0.5,
+      "max_offset": 0.5
+    }
+  },
+  "configs2": {
+    "attack": "pgd",
+    "description": "pgd_eps024",
+    "eps": 0.24,
+    "distribution": {
+      "num_samples": 40,
+      "transformation": "translation",
+      "min_offset": -0.5,
+      "max_offset": 0.5
+    }
+  },
+  "configs3": {
     "attack": "fgsm",
     "description": "fgsm_eps024",
-    "eps": 0.35,
-      "distribution": {
-      "num_samples": 200,
-      "transformation": "rotation",
-      "min_angle": -45,
-      "max_angle": 45
+    "eps": 0.24,
+    "distribution": {
+      "num_samples": 10,
+      "transformation": "translation",
+      "min_offset": -0.5,
+      "max_offset": 0.5
     }
+  },
+  "configs4": {
+    "attack": "fgsm",
+    "description": "fgsm_eps024",
+    "eps": 0.24,
+    "distribution": {
+      "num_samples": 20,
+      "transformation": "translation",
+      "min_offset": -0.5,
+      "max_offset": 0.5
     }
+  },
+  "configs5": {
+    "attack": "fgsm",
+    "description": "fgsm_eps024",
+    "eps": 0.24,
+    "distribution": {
+      "num_samples": 40,
+      "transformation": "translation",
+      "min_offset": -0.5,
+      "max_offset": 0.5
+    }
+  }
 }

@@ -82,7 +82,7 @@
   },
   "configs15": {
     "attack": "pgd",
-    "description": "pgd_eps024",
+    "description": "pgd_eps05_EOT_50",
     "eps": 0.5,
     "distribution": {
       "num_samples": 50,
@@ -93,7 +93,7 @@
   },
   "configs16": {
     "attack": "pgd",
-    "description": "fgsm_eps024",
+    "description": "pgd_eps05_EOT_100",
     "eps": 0.5,
     "distribution": {
       "num_samples": 100,
@@ -104,7 +104,7 @@
   },
   "configs17": {
     "attack": "pgd",
-    "description": "fgsm_eps024",
+    "description": "pgd_eps05_EOT_200",
     "eps": 0.5,
     "distribution": {
       "num_samples": 200,
@@ -115,7 +115,7 @@
   },
   "configs18": {
     "attack": "fgsm",
-    "description": "fgsm_eps024",
+    "description": "fgsm_eps05_EOT_50",
     "eps": 0.5,
     "distribution": {
       "num_samples": 50,
@@ -126,7 +126,7 @@
   },
   "configs19": {
     "attack": "fgsm",
-    "description": "fgsm_eps024",
+    "description": "fgsm_eps05_EOT_100",
     "eps": 0.5,
     "distribution": {
       "num_samples": 100,
@@ -137,7 +137,7 @@
   },
   "configs20": {
     "attack": "fgsm",
-    "description": "fgsm_eps024",
+    "description": "fgsm_eps05_EOT_200",
     "eps": 0.5,
     "distribution": {
       "num_samples": 200,
@@ -148,7 +148,7 @@
   },
   "configs21": {
     "attack": "fgsm",
-    "description": "fgsm_eps024",
+    "description": "fgsm_eps035_EOT_50",
     "eps": 0.35,
     "distribution": {
       "num_samples": 50,
@@ -159,7 +159,7 @@
   },
   "configs22": {
     "attack": "fgsm",
-    "description": "fgsm_eps024",
+    "description": "fgsm_eps035_EOT_100",
     "eps": 0.35,
     "distribution": {
       "num_samples": 100,
@@ -170,7 +170,7 @@
   },
   "configs23": {
     "attack": "fgsm",
-    "description": "fgsm_eps024",
+    "description": "fgsm_eps035_EOT_200",
     "eps": 0.35,
     "distribution": {
       "num_samples": 200,

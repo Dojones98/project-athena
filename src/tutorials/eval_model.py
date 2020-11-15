@@ -77,7 +77,7 @@ def evaluate_cnn(trans_configs, model_configs,
     # Evaluate AEs.
     results = {}
     ae_list = data_configs.get('ae_files')
-    ae_file = os.path.join(data_configs.get('dir'), ae_list[2])
+    ae_file = os.path.join(data_configs.get('dir'), ae_list[5])
     x_adv = np.load(ae_file)
 
     # evaluate the undefended model on the AE
