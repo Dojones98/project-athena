@@ -1,5 +1,3 @@
-# Task 1 Report is located in `/task1/report_task1.ipynb`
-
 # Project Athena
 This is the course project for [CSCE585](https://pooyanjamshidi.github.io/mls/). Students will build their machine learning systems based on the provided infrastructure --- [Athena](https://softsys4ai.github.io/athena/).
 
