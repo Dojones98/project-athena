@@ -1,0 +1,114 @@
+{
+  "num_attacks": 20,
+  "configs0": {
+    "attack": "pgd",
+    "description": "pgd_eps003",
+    "eps": 0.03
+  },
+  "configs1": {
+    "attack": "pgd",
+    "description": "pgd_eps006",
+    "eps": 0.06
+  },
+  "configs2": {
+    "attack": "pgd",
+    "description": "pgd_eps012",
+    "eps": 0.12
+  },
+  "configs3": {
+    "attack": "pgd",
+    "description": "pgd_eps024",
+    "eps": 0.24
+  },
+  "configs4": {
+    "attack": "pgd",
+    "description": "pgd_eps048",
+    "eps": 0.48
+  },
+  "configs5": {
+    "attack": "fgsm",
+    "description": "fgsm_eps003",
+    "eps": 0.03
+  },
+  "configs6": {
+    "attack": "fgsm",
+    "description": "fgsm_eps006",
+    "eps": 0.06
+  },
+  "configs7": {
+    "attack": "fgsm",
+    "description": "fgsm_eps012",
+    "eps": 0.12
+  },
+  "configs8": {
+    "attack": "fgsm",
+    "description": "fgsm_eps024",
+    "eps": 0.24
+  },
+  "configs9": {
+    "attack": "fgsm",
+    "description": "fgsm_eps048",
+    "eps": 0.48
+  },
+  "configs10": {
+    "attack": "bim",
+    "description": "bim_eps003iter50",
+    "eps": 0.03,
+    "max_iter": 50
+  },
+  "configs11": {
+    "attack": "bim",
+    "description": "bim_eps006iter50",
+    "eps": 0.06,
+    "max_iter": 50
+  },
+  "configs12": {
+    "attack": "bim",
+    "description": "bim_eps012ter50",
+    "eps": 0.12,
+    "max_iter": 50
+  },
+  "configs13": {
+    "attack": "bim",
+    "description": "bim_eps024iter50",
+    "eps": 0.24,
+    "max_iter": 50
+  },
+  "configs14": {
+    "attack": "bim",
+    "description": "bim_eps048iter50",
+    "eps": 0.48,
+    "max_iter": 50
+  },
+  "configs15": {
+    "attack": "bim",
+    "description": "bim_eps003iter100",
+    "eps": 0.03,
+    "max_iter": 100
+  },
+  "configs16": {
+    "attack": "bim",
+    "description": "bim_eps006iter100",
+    "eps": 0.06,
+    "max_iter": 100
+  },
+  "configs17": {
+    "attack": "bim",
+    "description": "bim_eps0121ter100",
+    "eps": 0.12,
+    "max_iter": 100
+  },
+  "configs18": {
+    "attack": "bim",
+    "description": "bim_eps024iter100",
+    "eps": 0.24,
+    "max_iter": 100
+  },
+  "configs19": {
+    "attack": "bim",
+    "description": "bim_eps048iter100",
+    "eps": 0.48,
+    "max_iter": 100
+  }
+
+}
